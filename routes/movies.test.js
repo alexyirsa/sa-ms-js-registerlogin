@@ -7,6 +7,7 @@ jest.mock("../helpers", () => ({
   loadMovies: jest.fn(() => ["movie1", "movie2"]),
 }));
 
+
 describe("[ routes / movies ]", () => {
   it("should return a response with status 200", async () => {
     // Arrange
